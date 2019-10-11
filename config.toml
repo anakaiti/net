@@ -8,12 +8,7 @@ theme = "pulp"
     avatar = "avatar.jpg"
     favicon = "favicon.ico"
     description = """
-    I turn coffee into YAML  
-
-        We'll see creation come undone
-        These bones that bound us will be gone
-        We'll stir our spirits 'til we're one
-        Then soft as shadows we'll become
+        I turn coffee into YAML
     """
     publicationYear = "2019"
 
