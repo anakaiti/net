@@ -12,11 +12,11 @@ make it easier.
 
 ## Shell functions
 
-``sh
+```sh
 gcl(){ gcloud config configurations list; }
 gca(){ gcloud config configurations activate $1; }
 
-``
+```
 
 This is already a lot better than the previous way, it's short and sweet. But
 can we improve it further.
@@ -32,21 +32,21 @@ two commands into..
 
 ## One command to rule them all
 
-``sh
+```sh
 gcp(){
     local readonly g=( "gcloud" "config" "configurations" )
     ${g} activate ${1:-$(${g} list |  fzf --header-lines 1 --reverse | cut -d ' ' -f 1)}
 }
 
-``
+```
 
 **Hol'up!** how did it get this complicated?  
 Lets go through it line by line.  
 
-``sh
+```sh
 local readonly g=( "gcloud" "config" "configurations" )
 
-``
+```
 
 Here, we're setting the shell variable `g` with the first part of the
 long command.
@@ -56,10 +56,10 @@ long command.
 It's not required here, but it makes things nicer, since I have a lot of other
 functions defined elswhere in my shell profile.
 
-``sh
+```sh
 ${g} activate ${1:-$(...)}
 
-``
+```
 
 `${g}` expands our last variable to shell commands & arguments.  
 `activate` is one of the arguments from the long command.  
@@ -70,10 +70,10 @@ the default value is not set directly, but instead..
 `$(...)` runs the command(s) listed inside it in a subshell and returns it as
 an argument.  
 
-``sh
+```sh
 ${g} list |  fzf --header-lines 1 --reverse | cut -d ' ' -f 1
 
-``
+```
 
 You can see that there's actually 3 commands here. This is called a pipeline.
 The output of the previous command is passed to the input of the next command.
