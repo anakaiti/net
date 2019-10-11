@@ -20,8 +20,22 @@ theme = "pulp"
 
 
 [[menu.main]]
+    identifier = "linkedin"
+    name = "LinkedIn"
+    pre = "<i class='fab fa-linkedin fa-lg'></i>"
+    url = "https://www.linkedin.com/in/mohdyahyahrln/"
+    weight = 10
+
+[[menu.main]]
     identifier = "github"
-    # name = "GitHub"
+    name = "GitHub"
     pre = "<i class='fab fa-github fa-lg'></i>"
     url = "https://github.com/anakaiti"
-    weight = 10
+    weight = 20
+
+[[menu.main]]
+    identifier = "keybase"
+    name = "Keybase"
+    pre = "<i class='fab fa-keybase fa-lg'></i>"
+    url = "https://keybase.io/anakaiti"
+    weight = 20
