@@ -25,7 +25,12 @@ can we improve it further.
 
 ![fzf preview](https://raw.githubusercontent.com/junegunn/i/master/fzf-preview.png)
 
-    fzf is a general-purpose command-line fuzzy finder.
+from [junegunn/fzf](https://github.com/junegunn/fzf):
+
+```md
+fzf is a general-purpose command-line fuzzy finder.
+
+```
 
 With fzf, we can create a simple TUI with search. Using it, we can combine the
 two commands into..
