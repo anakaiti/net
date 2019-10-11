@@ -8,7 +8,7 @@ theme = "pulp"
     avatar = "avatar.jpg"
     favicon = "favicon.ico"
     description = """
-        I turn coffee into YAML
+        I turn coffee into YAML and questionable shell scripts.
     """
     publicationYear = "2019"
 
