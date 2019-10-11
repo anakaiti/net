@@ -1,0 +1,4 @@
+/* https://developers.google.com/web/updates/2016/02/font-display */
+body {
+  font-display: auto;
+}
