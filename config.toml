@@ -2,3 +2,23 @@ baseURL = "https://anakaiti.net/"
 languageCode = "en-us"
 title = "Anakaiti"
 theme = "pulp"
+
+[params]
+    author = "Yahya H"
+    avatar = "avatar.jpg"
+    favicon = "favicon.ico"
+    description = """
+        Hi
+    """
+    publicationYear = "2019"
+
+[outputs]
+    section = ["JSON", "HTML"]
+
+
+[[menu.main]]
+    identifier = "github"
+    # name = "GitHub"
+    pre = "<i class='fab fa-github fa-lg'></i>"
+    url = "https://github.com/anakaiti"
+    weight = 10
