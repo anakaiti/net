@@ -12,7 +12,6 @@ pygmentsUseClasses = true
     description = """
         I turn coffee into YAML and questionable shell scripts.
     """
-    publicationYear = "2019"
     custom_css = ["/css/custom.css"]
 
 [outputs]
