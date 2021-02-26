@@ -9,9 +9,7 @@ pygmentsUseClasses = true
     author = "Yahya H"
     avatar = "avatar.jpg"
     favicon = "favicon.ico"
-    description = """
-        I turn coffee into YAML and questionable shell scripts.
-    """
+    description = ""
     custom_css = ["/css/custom.css"]
 
 [outputs]
