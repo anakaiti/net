@@ -6,7 +6,7 @@ draft: false
 
 For some reason, it's not configured by default.
 
-![Config screenshot](https://i.imgur.com/TxuLa7o.png)
+![Config screenshot](https://i.imgur.com/Xhrc1GB.png)
 
 1. Login to your router Web UI on `192.168.18.1`. The default credentials are `Adminep:epAdmin`
 1. Go to ⚙️ > Maintenance Diagnosis > Configuration file & Download your current config, just in case.
