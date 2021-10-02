@@ -18,3 +18,5 @@ For some reason, it's not configured by default.
   - Set everything in the IPv6 Information block to DHCPv6
 1. Your internet should be back on now. Disconnect & reconnect your devices to get them an IPv6 address.
 1. Check your IPv6 status at https://ipv6test.google.com/
+
+If things are broken, restore settings from the config screenshot, or restore the config file at the same place you created the backup from.
