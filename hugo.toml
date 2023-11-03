@@ -2,7 +2,9 @@ baseURL = 'https://anakaiti.net/'
 languageCode = 'en-us'
 title = 'Yahya H'
 theme = 'anakaiti'
-
+enableEmoji = true
+enableGitInfo = true
 [params]
 author = 'Yahya H'
 Description = "Anakaiti's personal website"
+commits_url = 'https://github.com/anakaiti/net/commit'

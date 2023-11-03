@@ -59,3 +59,9 @@ img {
     border-top-color: #eee;
   }
 }
+
+.commit-info {
+  font-family: monospace;
+  filter: brightness(50%);
+  font-size: 0.8rem;
+}

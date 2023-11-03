@@ -7,4 +7,6 @@
   crossorigin="anonymous"
   async
 ></script>
-<p>© {{ now.Year }}</p>
+<a class="commit-info" href="{{.Site.Params.commits_url}}/{{.GitInfo.AbbreviatedHash}}" rel="noopener noreferrer">
+  {{.GitInfo.AbbreviatedHash}} -  {{.GitInfo.AuthorDate.Format "2006-01-02 15:04:05 -0700"}}
+</a>
