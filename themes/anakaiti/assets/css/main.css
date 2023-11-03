@@ -8,7 +8,11 @@ body {
   font-size:18px;
 }
 
-
+@media only screen and (max-width: 768px) {
+  body {
+    margin: auto;
+  }
+}
 
 header {
   border-bottom: 1px solid #222;
