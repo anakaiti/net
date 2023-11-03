@@ -13,3 +13,7 @@ The build times in Cloudflare are way slower (granted, it's in beta).
 I'll be updating the post if I found any quirks.
 
 **Update 1:** This post took 3 minutes to build. That's nuts, since Vercel builds take ~15s. Maybe because this site uses hugo?
+
+**Update 2023:** I updated the cloudflare pages builder version, and builds are now as fast as vercel.
+
+![screenshot](https://i.imgur.com/IR9KLVi.png)

@@ -1,9 +1,11 @@
 body {
   color: #222;
   font-family: sans-serif;
-  line-height: 1.5;
-  margin: 1rem;
-  max-width: 768px;
+  padding:0 10px;
+  margin:40px auto;
+  max-width:768px;
+  line-height:1.6;
+  font-size:18px;
 }
 
 header {
@@ -21,9 +23,18 @@ a {
   text-decoration: none;
 }
 
+
+h1,h2,h3{
+  line-height:1.2
+}
+
 title {
   display: block;
   font-size: 2rem;
   font-weight: bold;
   margin: 1rem 0;
+}
+
+img {
+  max-width: 100%;
 }
