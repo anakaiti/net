@@ -1,7 +1,8 @@
 baseURL = 'https://anakaiti.net/'
 languageCode = 'en-us'
-title = 'Anakaiti'
+title = 'Yahya H'
 theme = 'anakaiti'
 
 [params]
+author = 'Yahya H'
 Description = "Anakaiti's personal website"

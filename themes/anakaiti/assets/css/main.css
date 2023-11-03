@@ -8,6 +8,8 @@ body {
   font-size:18px;
 }
 
+
+
 header {
   border-bottom: 1px solid #222;
   margin-bottom: 1rem;
@@ -19,7 +21,7 @@ footer {
 }
 
 a {
-  color: #00e;
+  color: #009CFF;
   text-decoration: none;
 }
 
@@ -37,4 +39,23 @@ title {
 
 img {
   max-width: 100%;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #222;
+    color: #eee;
+  }
+
+  a {
+    color: #f7c475;
+  }
+
+  header {
+    border-bottom-color: #eee;
+  }
+
+  footer {
+    border-top-color: #eee;
+  }
 }
