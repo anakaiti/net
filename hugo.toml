@@ -1,0 +1,7 @@
+baseURL = 'https://anakaiti.net/'
+languageCode = 'en-us'
+title = 'Anakaiti'
+theme = 'anakaiti'
+
+[params]
+Description = "Anakaiti's personal website"
