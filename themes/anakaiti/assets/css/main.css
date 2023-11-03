@@ -68,3 +68,7 @@ img {
   filter: brightness(50%);
   font-size: 0.8rem;
 }
+
+pre code {
+  white-space: pre;
+}
