@@ -1,0 +1,49 @@
+==================================================================
+https://keybase.io/anakaiti
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://anakaiti.net
+  * I am anakaiti (https://keybase.io/anakaiti) on keybase.
+  * I have a public key ASCPOr9kiTXQKKdur6ub9uiZgRQlbEreW6H1g4PpLxa1dwo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01203e37c2be7a595fbaf02a1092a690246e485581f3076d9347e0ae903c6f379b140a",
+      "host": "keybase.io",
+      "kid": "01208f3abf648935d028a76eafab9bf6e8998114256c4ade5ba1f58383e92f16b5770a",
+      "uid": "d962747039521f27a49639cef10ccf19",
+      "username": "anakaiti"
+    },
+    "merkle_root": {
+      "ctime": 1728727126,
+      "hash": "f3600de5d438c2ab4439bfa704e839f491873e41681e3be5485ef0aca4a7a22811ef38121e8222906caa292809bb7648d8b633f75808a418c313e9f49072867b",
+      "hash_meta": "1a23d4f3744023e48ccbd3bf8c83037d29eebe8a0622332a68b80d491ddad1e8",
+      "seqno": 26199575
+    },
+    "service": {
+      "entropy": "XwY1zFEf2Yn9viWOkY82Mx4N",
+      "hostname": "anakaiti.net",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "6.4.0"
+  },
+  "ctime": 1728727282,
+  "expire_in": 504576000,
+  "prev": "df86a1277373dfab9d0f6c8c531d7563a1894b220f9e8de30ec7b2b482f618f5",
+  "seqno": 97,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgjzq/ZIk10Cinbq+rm/bomYEUJWxK3luh9YOD6S8WtXcKp3BheWxvYWTESpcCYcQg34ahJ3Nz36udD2yMUx11Y6GJSyIPno3jDseytIL2GPXEILkzXz9L/rTj9ZQ/xH3bfup2ahIPuCdHqQu3QW0nrX9eAgHCo3NpZ8RAug20W+s1+V5bCgxewY1hkD/GLEOkPhzbiwt38rQ672J7ZR5LL4PtDBG52MBYR6aEFKUsyFTkOEfqeMmlvDQKCahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIJaU4pZUzOcGJFeU5K6f+1v8lFSWCjSRlsSr+DiTZrxQo3RhZ80CAqd2ZXJzaW9uAQ==
